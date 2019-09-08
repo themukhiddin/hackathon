@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bullying Blocker</title>
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="/my/script.js"></script>
+    <link rel="shortcut icon" href="/img/title.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="header-logo">
+            <img src="/img/logo.png">
+            <a href="#first-block"><img id="image-logo-red" src="/img/logo-red.png"></a>
+        </div>
+
+        <div class="header-nav">
+            <ul class="header-nav__tabl">
+                <li><a href="#five-block">о проекте</a></li>
+                <li><a href="#support-block">как бороться</a></li>
+                <li><a href="#hot-call">горячие линии</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="first-block" id="first-block">
+    <div class="first-block__content">
+        <h1 class="jello">Чистый интернет <br> без травли</h1>
+
+        <h2 class="first-block__content-title">Никогда не оскорбляй кого-то другого,<br>чтобы чувствовать себя лучше</h2>
+        <form action="#" name="main-form" target="#">
+            <input class="first-block__content__analis-form" type="text" name="" placeholder="Вставте ID группы">
+            <div id="block-shadow-link"><input class="first-block__content__analis-button"  type="button" name="#" value="Анализ" onclick="codeShadow()"> <!--ОБРАТИТЬ ВНИМАНИЕ НА ТИП--></div>
+        </form>
+    </div>
+
+    <div class="first-block__gif">
+        <img class="gif" src="/img/nano.gif">
+    </div>
+</div>
+
+<div class="second-block" id="block-shadow">
+    <div class="container">
+        <div class="second-block__con-one">
+            <h2 class="text-color">Статистика сканирования</h2>
+        </div>
+
+        <div id="second-block__content" class="second-block__content">
+            <div  id="second-block__content-item">
+                <div id="roro"  class="second-block__content-one__item">
+                    <div id="block-second__profil" class="second-block__items-profil">
+                        <p><a href="#">NAME</a></p>
+                    </div>
+
+                    <div id="block-second__reiting" class="second-block__items-reiting">
+                        <div class="second-block__reiting-strong" id="item">
+                            <div  class="second-block__reiting-item">Мат</div>
+                            <div  class="second-block__reiting-item">Угрозы</div>
+                            <div  class="second-block__reiting-item">Всего</div>
+                        </div>
+
+                        <div class="second-block__reiting-result" id="itemes">
+                            <div  class="second-block__reiting-item">0</div>
+                            <div  class="second-block__reiting-item">0</div>
+                            <div  class="second-block__reiting-item">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="three-block" id="support-block">
+    <div class="container">
+        <div class="three-block__title">
+            <h2>
+                как бороться ?
+            </h2>
+        </div>
+
+        <div class="three-block__items">
+            <div class="three-block__items__item">
+                <h3>Оставайтесь спокойными</h3>
+                <p>Первое, что вы должны сделать, — это глубокий вдох. Возможно, лучше будет выйти из социальной сети, где вы подверглись кибербуллингу, или выключить девайс. Сделайте перерыв. Помните, что люди, оскорбляющие вас, как правило, имеют ворох проблем, и просто стараются почувствоваться себя лучше, нападая на вас. То, что они говорят, это ложь.</p>
+            </div>
+            <div class="three-block__items__item">
+                <h3>Поделитесь своими переживаниям с близкими</h3>
+                <p>Поговорите о нападках на вас со взрослыми, или дурзьями с которыми вы чувствуете себя комфортно. Они помогут вам справиться с ситуацией, которая сложилась. Помните, вы не должны проходить через все это в одиночестве, доверьтесь.</p>
+            </div>
+        </div>
+        <div class="three-block__items">
+            <div class="three-block__items__item">
+                <h3>Заблокируйте кибербуллера</h3>
+                <p>Убедитесь, что вы внесли обидчика в «черный список» и заблокировали его, <br> чтобы он не смог больше связаться с вами. Даже если он общался с вами только в одной социальной сети, заблокируйте его и в других, чтобы он не смог достать вас и там.</p>
+            </div>
+            <div class="three-block__items__item">
+                <h3>Подайте жалобу</h3>
+                <p>После того, как вы заблокируете кибербуллера, напишите администраторам социальной сети, чтобы они приняли соответствующие меры <br> по предотвращению новых случаев атак.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="for-block" id="hot-call">
+    <div class="container">
+        <div class="for-block__items">
+            <h2>Горячие линии</h2>
+
+            <div class="for-block__items-item">
+                <p>ЕДИНЫЙ ОБЩЕРОССИЙСКИЙ ТЕЛЕФОН ДОВЕРИЯ ДЛЯ ДЕТЕЙ, ПОДРОСТКОВ И ИХ РОДИТЕЛЕЙ:</p>
+                <h3>800-2000-122800-2000-122</h3>
+            </div>
+
+            <div class="for-block__items-item">
+                <p>Служба экстренного реагирования «Ребенок и семья» (Тюмень):</p>
+                <h3>8 (3452)92-10-50</h3>
+            </div>
+
+            <div class="for-block__items-item">
+                <p>ЕДИНЫЙ ОБЩЕРОССИЙСКИЙ ТЕЛЕФОН ДОВЕРИЯ ДЛЯ ДЕТЕЙ, ПОДРОСТКОВ И ИХ РОДИТЕЛЕЙ</p>
+                <h3>800-2000-122800-2000-122</h3>
+            </div>
+
+            <div class="for-block__items-item">
+                <p>Семейная служба консультирования (Тюмень):</p>
+                <h3>8 (3452)67-36-73</h3>
+            </div>
+
+            <div class="for-block__items-item">
+                <p>Областная приемная по защите прав детей и подростков г.Тюмень, ул.Геологоразведчиков, 14а:</p>
+                <h3>8(3452) 20-15-49</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div id="five-block">
+        <div class="container">
+            <p>В наши дни, когда практически у каждого школьника есть своя страничка во <strong>VKONTAKTE</strong> и мечта стать крутым блогером на <strong>YouTube</strong>, существует угроза подверженности нападкам со стороны других пользователей сети. Оскорбления, полученные в сети, порой ранят сильнее, чем издевательства в школе. Злобные комментарии и унизительные посты способны не только испортить настроение ребёнку, но и нанести ему серьёзную психологическую травму. К сожалению, такая интернет-травля нередкое явление. Например, в России около <strong>23%</strong> детей, пользующихся интернетом, в течение года становятся жертвами кибербуллинга. А каждый четвёртый ребёнок признаётся в том, что сам оскорбляет других в сети.</p>
+            <p>оскорбляет других в сети. Для решения этой проблемы мы запустили сервис по борьбе с кибербуллингом <strong id="color-text">Bullying Blocker</strong>. Благодаря ему вы можете просканировать группы и страницы на предмет оскорбительных коментариев и записей. Для того чтобы воспользоваться сервисом скопируйте ссылку на страницу и вставьте в соответствующее поле на главной странице.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
